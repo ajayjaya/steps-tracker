@@ -7,22 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular';
-  posts = [
-    {
-      id: 1,
-      title: "Reusable Component"
-    },
-    {
-      id: 2,
-      title: "Blog"
-    },
-    {
-      id: 3,
-      title: "Case study"
-    },
-    {
-      id: 4,
-      title: "Certification"
-    }
-  ]
 }
