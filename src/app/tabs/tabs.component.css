@@ -1,0 +1,21 @@
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+.tab-content {
+    display: flex;
+}
+li {
+    list-style: none;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #CCC;
+    border-bottom: none;
+}
+li:not(:last-child) {
+    margin-right: 10px;
+}

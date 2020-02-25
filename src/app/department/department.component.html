@@ -1,0 +1,10 @@
+<form>
+  <div class="form-group">
+    <label for="department">Department</label>
+    <select class="form-control" id="department" name="department">
+      <option *ngFor="let dept of departments" [value]="dept.id">
+        {{dept.name}}
+      </option>
+    </select>
+  </div>
+</form>
